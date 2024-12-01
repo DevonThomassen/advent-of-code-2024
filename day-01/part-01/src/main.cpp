@@ -22,7 +22,7 @@ int main()
 
         if (!(ss >> left >> right))
         {
-            std::cerr << "Error \n";
+            std::cerr << "Error reading line\n";
             continue;
         }
         left_list.push_back(left);

@@ -1,17 +1,10 @@
 cmake_minimum_required(VERSION 3.29)
-project(day-01)
+project(day-01-1)
 
 set(CMAKE_CXX_STANDARD 23)
 set(CMAKE_CXX_STANDARD_REQUIRED True)
 
-set(SOURCES
-        src/main.cpp
-)
-
-# Add header files (optional, for organization)
-#set(HEADERS
-#        include/example.hpp
-#)
+set(SOURCES src/main.cpp)
 
 add_executable(${PROJECT_NAME} ${SOURCES} ${HEADERS})
 
@@ -20,7 +13,7 @@ target_include_directories(${PROJECT_NAME}
         ${PROJECT_SOURCE_DIR}/include
 )
 
-set(RESOURCES_DIR "${CMAKE_SOURCE_DIR}/resources")
+set(RESOURCES_DIR "${CMAKE_SOURCE_DIR}/../resources")
 
 add_custom_command(
         TARGET ${PROJECT_NAME} POST_BUILD
