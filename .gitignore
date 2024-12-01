@@ -1,0 +1,49 @@
+# CMake filesx
+CMakeCache.txt
+CMakeFiles/
+CMakeLists.txt.user
+
+# Build directories
+cmake-build-debug/
+build/
+bin/
+out/
+
+# Object files
+*.o
+*.obj
+
+# Executables
+*.exe
+*.out
+*.app
+
+# Dependency directories
+deps/
+vendor/
+
+# IDE specific files
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+
+# Miscellaneous
+*.DS_Store
+*.swp
+*.tmp
+*.log
+*.class
+*.jar
+
+# Debug files
+*.dSYM/
+*.pdb
+*.idb
+*.ilk
+*.user
+
+# C++ specific
+*.so
+*.dll
+*.dylib
